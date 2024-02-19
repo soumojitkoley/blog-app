@@ -10,6 +10,10 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a {
@@ -22,6 +26,8 @@
     position: fixed;
     right: 1em;
     top: 0.7em;
+    display: flex;
+    gap: 5px;
 }
 
 .theme-checkbox {
@@ -70,4 +76,10 @@
 
 .theme-checkbox:checked {
     background-position: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-main-div{
+        justify-content:space-between;
+    }
 }

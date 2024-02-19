@@ -20,14 +20,6 @@ const Blogs = () => {
               posts.map(post => {
                 return (
                   <div key={post.id} className='post'>
-                    {/* <div className="title-photo">
-                      <div className="title">
-                        <p className='p-title'><b>{post.title}</b></p>
-                      </div>
-                      <div className="photo">
-                        <img key={post.id} src={`${post.img}?portrait${generateRandomString()}`} alt="" />
-                      </div>
-                    </div> */}
                     <p className='p-title'><b>{post.title}</b></p>
                     <p>By <span><b>{post.author}</b></span> On <span><b>{post.category}</b></span></p>
                     <p>Posted On <span><b>{post.date}</b></span></p>

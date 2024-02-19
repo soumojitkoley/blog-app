@@ -12,6 +12,7 @@ const Header = () => {
           <h2><span className='a'>Tech</span> Blogs</h2>
         </div>
         <div className="mode-switch">
+          <p>{mode ? 'Light' : 'Dark'} Mode</p>
           <input onClick={modeClickHandler} checked={mode} type="checkbox" class="theme-checkbox" />
         </div>
     </div>

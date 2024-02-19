@@ -27,6 +27,7 @@
     align-items: center;
     padding: 7px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .footer-img{
