@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className='header-main-div'>
         <div className="title">
-          <NavLink to='/' className='header-nav'><h2><span className='a'>Tech</span> Blogs</h2></NavLink>
+          <NavLink to='/' className={mode ? 'header-nav-light' : 'header-nav-dark'}><h2><span className='a'>Tech</span> Blogs</h2></NavLink>
         </div>
         <div className="mode-switch">
           <p>{mode ? 'Light' : 'Dark'} Mode</p>

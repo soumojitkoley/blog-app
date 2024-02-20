@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import { useLocation, useNavigate } from "react-router-dom";
 import Header from "../Components/Header";
-import Blogs from "../Components/Blogs.jsx";
+import Blogs from '../Components/Blogs'
 import Footer from "../Components/Footer";
 import { AppContext } from '../Context/AppContext.jsx'
-import Spinner from '../Components/Spinner';
+import Spinner from '../Components/Spinner'
 import './TagPage.css'
 
 const TagPage = () => {
