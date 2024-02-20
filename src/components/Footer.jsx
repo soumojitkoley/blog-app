@@ -21,7 +21,6 @@ const Footer = () => {
           {
             currentPage !== totalPages && (
               <div className='btn'>
-
                 <img onClick={() => onclickHandler(currentPage + 1)} className='footer-img' src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="" />
               </div>
             )

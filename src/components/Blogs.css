@@ -4,6 +4,12 @@
     margin: 3.7em 0em;
 }
 
+.no-margin-tag-page,
+.no-margin-category-page{
+    margin: 0;
+    margin-bottom: 3.7em;
+}
+
 .all-posts{
     width: 100%;
     display: flex;
@@ -20,8 +26,6 @@
     box-shadow: rgba(0.35, 0.35, 0.35, 0.35) 0px 5px 15px;
 }
 
-
-
 .title-photo{
     display: flex;
     justify-content: space-evenly;
@@ -33,6 +37,12 @@
     margin:1em 0em;
     font-size: large;
     text-decoration: underline;
+    color: #2d79f3;
+}
+
+.p-category{
+    text-decoration: underline;
+    color: #2d79f3;
 }
 
 .photo img{

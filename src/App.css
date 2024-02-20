@@ -1,13 +1,9 @@
 .app-main-div-dark{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #242424;
     color: #fff;
-}
-
-.app-main-div-light{
+  }
+  
+  .app-main-div-light{
     background-color: #fff;
     color: black;
-}
+  }
