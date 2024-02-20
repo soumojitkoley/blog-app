@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './Header.css'
 import { AppContext } from '../Context/AppContext'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
 
@@ -9,7 +10,7 @@ const Header = () => {
   return (
     <div className='header-main-div'>
         <div className="title">
-          <h2><span className='a'>Tech</span> Blogs</h2>
+          <NavLink to='/' className='header-nav'><h2><span className='a'>Tech</span> Blogs</h2></NavLink>
         </div>
         <div className="mode-switch">
           <p>{mode ? 'Light' : 'Dark'} Mode</p>

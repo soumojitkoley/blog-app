@@ -20,6 +20,11 @@
     font-weight: 100;
 }
 
+.header-nav{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* mode-switch-css */
 
 .mode-switch{
